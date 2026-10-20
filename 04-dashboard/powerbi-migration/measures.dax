@@ -1,0 +1,9 @@
+// Suggested measures after importing the summary CSVs under their original table names.
+购买路径率 = DIVIDE(CALCULATE(SUM(funnel[journeys]),funnel[stage]="浏览后购买"),CALCULATE(SUM(funnel[journeys]),funnel[stage]="浏览"))
+// 加购未采集在此服饰子集，不能计算加购率。
+D1回访率 = DIVIDE(SUM(retention[d1]),CALCULATE(SUM(retention[cohort_users]),FILTER(retention,NOT ISBLANK(retention[d1]))))
+D7回访率 = DIVIDE(SUM(retention[d7]),CALCULATE(SUM(retention[cohort_users]),FILTER(retention,NOT ISBLANK(retention[d7]))))
+购买用户数 = SUM(rfm_segments[buyers])
+购买事件金额 = SUM(rfm_segments[value])
+分群人均金额 = DIVIDE([购买事件金额],[购买用户数])
+// Preserve null retention cells as BLANK, never replace with 0 before these measures.

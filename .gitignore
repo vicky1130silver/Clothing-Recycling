@@ -1,0 +1,6 @@
+02-data/raw/
+*.sqlite
+*.sqlite-journal
+__pycache__/
+*.pyc
+.DS_Store

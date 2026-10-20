@@ -1,0 +1,570 @@
+{
+  "raw_rows": 545473,
+  "clean_rows": 545468,
+  "users": 108047,
+  "sessions": 139837,
+  "products": 10577,
+  "parse_invalid_price": 0,
+  "events": [
+    {
+      "event_type": "purchase",
+      "n": 2542
+    },
+    {
+      "event_type": "view",
+      "n": 542926
+    }
+  ],
+  "time_range": {
+    "start": "2019-10-01 00:00:10",
+    "end": "2019-10-14 23:59:50"
+  },
+  "duplicates": 5,
+  "brand_missing": 142376,
+  "zero_price": 2468,
+  "funnel": {
+    "views": 458220,
+    "carts": 0,
+    "purchases": 2426
+  },
+  "daily": [
+    {
+      "day": "2019-10-01",
+      "events": 38484,
+      "users": 8512,
+      "purchases": 170,
+      "purchase_value": 13198.01
+    },
+    {
+      "day": "2019-10-02",
+      "events": 33391,
+      "users": 7742,
+      "purchases": 159,
+      "purchase_value": 14361.58
+    },
+    {
+      "day": "2019-10-03",
+      "events": 28132,
+      "users": 6331,
+      "purchases": 127,
+      "purchase_value": 11454.15
+    },
+    {
+      "day": "2019-10-04",
+      "events": 27526,
+      "users": 6578,
+      "purchases": 130,
+      "purchase_value": 10078.9
+    },
+    {
+      "day": "2019-10-05",
+      "events": 29342,
+      "users": 6672,
+      "purchases": 143,
+      "purchase_value": 11767.48
+    },
+    {
+      "day": "2019-10-06",
+      "events": 28767,
+      "users": 6580,
+      "purchases": 111,
+      "purchase_value": 8893.78
+    },
+    {
+      "day": "2019-10-07",
+      "events": 28117,
+      "users": 6524,
+      "purchases": 151,
+      "purchase_value": 12648.99
+    },
+    {
+      "day": "2019-10-08",
+      "events": 36238,
+      "users": 9071,
+      "purchases": 147,
+      "purchase_value": 12378.98
+    },
+    {
+      "day": "2019-10-09",
+      "events": 39769,
+      "users": 9365,
+      "purchases": 177,
+      "purchase_value": 14672.16
+    },
+    {
+      "day": "2019-10-10",
+      "events": 36171,
+      "users": 8355,
+      "purchases": 212,
+      "purchase_value": 15502.93
+    },
+    {
+      "day": "2019-10-11",
+      "events": 56549,
+      "users": 13212,
+      "purchases": 275,
+      "purchase_value": 22396.53
+    },
+    {
+      "day": "2019-10-12",
+      "events": 55788,
+      "users": 11970,
+      "purchases": 279,
+      "purchase_value": 20497.32
+    },
+    {
+      "day": "2019-10-13",
+      "events": 63845,
+      "users": 13767,
+      "purchases": 288,
+      "purchase_value": 22407.61
+    },
+    {
+      "day": "2019-10-14",
+      "events": 43349,
+      "users": 9956,
+      "purchases": 173,
+      "purchase_value": 14319.23
+    }
+  ],
+  "retention": [
+    {
+      "cohort_day": "2019-10-01",
+      "cohort_users": 8512,
+      "d1": 431,
+      "d3": 234,
+      "d7": 230
+    },
+    {
+      "cohort_day": "2019-10-02",
+      "cohort_users": 7311,
+      "d1": 256,
+      "d3": 171,
+      "d7": 158
+    },
+    {
+      "cohort_day": "2019-10-03",
+      "cohort_users": 5789,
+      "d1": 216,
+      "d3": 129,
+      "d7": 141
+    },
+    {
+      "cohort_day": "2019-10-04",
+      "cohort_users": 5931,
+      "d1": 200,
+      "d3": 127,
+      "d7": 165
+    },
+    {
+      "cohort_day": "2019-10-05",
+      "cohort_users": 5958,
+      "d1": 214,
+      "d3": 118,
+      "d7": 169
+    },
+    {
+      "cohort_day": "2019-10-06",
+      "cohort_users": 5794,
+      "d1": 157,
+      "d3": 101,
+      "d7": 142
+    },
+    {
+      "cohort_day": "2019-10-07",
+      "cohort_users": 5618,
+      "d1": 189,
+      "d3": 113,
+      "d7": 98
+    },
+    {
+      "cohort_day": "2019-10-08",
+      "cohort_users": 8001,
+      "d1": 229,
+      "d3": 205,
+      "d7": null
+    },
+    {
+      "cohort_day": "2019-10-09",
+      "cohort_users": 8152,
+      "d1": 282,
+      "d3": 177,
+      "d7": null
+    },
+    {
+      "cohort_day": "2019-10-10",
+      "cohort_users": 6875,
+      "d1": 295,
+      "d3": 192,
+      "d7": null
+    },
+    {
+      "cohort_day": "2019-10-11",
+      "cohort_users": 11210,
+      "d1": 451,
+      "d3": 235,
+      "d7": null
+    },
+    {
+      "cohort_day": "2019-10-12",
+      "cohort_users": 9894,
+      "d1": 470,
+      "d3": null,
+      "d7": null
+    },
+    {
+      "cohort_day": "2019-10-13",
+      "cohort_users": 11191,
+      "d1": 341,
+      "d3": null,
+      "d7": null
+    },
+    {
+      "cohort_day": "2019-10-14",
+      "cohort_users": 7811,
+      "d1": null,
+      "d3": null,
+      "d7": null
+    }
+  ],
+  "retention_aggregate": {
+    "1": {
+      "returned": 3731,
+      "eligible": 100236,
+      "rate": 0.037222155712518454
+    },
+    "3": {
+      "returned": 1802,
+      "eligible": 79151,
+      "rate": 0.02276661065558237
+    },
+    "7": {
+      "returned": 1103,
+      "eligible": 44913,
+      "rate": 0.024558591053815155
+    }
+  },
+  "rfm": {
+    "buyers": 1794,
+    "m_quartiles": [
+      57.92,
+      87.52,
+      127.42
+    ],
+    "segments": [
+      {
+        "segment": "核心价值",
+        "buyers": 190,
+        "value": 55527.17,
+        "avg_value": 292.25,
+        "avg_f": 2.87,
+        "avg_r": 3.28
+      },
+      {
+        "segment": "潜力复购",
+        "buyers": 34,
+        "value": 3586.81,
+        "avg_value": 105.49,
+        "avg_f": 2.0,
+        "avg_r": 3.62
+      },
+      {
+        "segment": "近期首购",
+        "buyers": 916,
+        "value": 76857.89,
+        "avg_value": 83.91,
+        "avg_f": 1.0,
+        "avg_r": 3.72
+      },
+      {
+        "segment": "待唤回",
+        "buyers": 654,
+        "value": 68605.78,
+        "avg_value": 104.9,
+        "avg_f": 1.17,
+        "avg_r": 11.19
+      }
+    ],
+    "total_value": 204577.65,
+    "top20_share": 0.45705637932589416,
+    "repeat_buyers": 305,
+    "snapshot": "2019-10-15 UTC"
+  },
+  "category": [
+    {
+      "category_code": "apparel.shoes",
+      "events": 248834,
+      "users": 48541,
+      "purchase_events": 1200,
+      "value": 107553.81
+    },
+    {
+      "category_code": "apparel.shoes.keds",
+      "events": 164950,
+      "users": 40066,
+      "purchase_events": 1023,
+      "value": 76545.81
+    },
+    {
+      "category_code": "apparel.costume",
+      "events": 32640,
+      "users": 14963,
+      "purchase_events": 99,
+      "value": 10611.06
+    },
+    {
+      "category_code": "apparel.jeans",
+      "events": 22057,
+      "users": 11782,
+      "purchase_events": 58,
+      "value": 2493.55
+    },
+    {
+      "category_code": "apparel.underwear",
+      "events": 20056,
+      "users": 7574,
+      "purchase_events": 33,
+      "value": 723.77
+    },
+    {
+      "category_code": "apparel.tshirt",
+      "events": 11991,
+      "users": 7823,
+      "purchase_events": 24,
+      "value": 966.39
+    },
+    {
+      "category_code": "apparel.dress",
+      "events": 10873,
+      "users": 5283,
+      "purchase_events": 2,
+      "value": 169.89
+    },
+    {
+      "category_code": "apparel.trousers",
+      "events": 9006,
+      "users": 5659,
+      "purchase_events": 14,
+      "value": 749.92
+    },
+    {
+      "category_code": "apparel.shoes.moccasins",
+      "events": 6238,
+      "users": 2988,
+      "purchase_events": 35,
+      "value": 2342.95
+    },
+    {
+      "category_code": "apparel.shirt",
+      "events": 5629,
+      "users": 3454,
+      "purchase_events": 21,
+      "value": 1095.26
+    },
+    {
+      "category_code": "apparel.shoes.sandals",
+      "events": 3899,
+      "users": 1585,
+      "purchase_events": 6,
+      "value": 214.65
+    },
+    {
+      "category_code": "apparel.shoes.slipons",
+      "events": 2596,
+      "users": 1576,
+      "purchase_events": 5,
+      "value": 220.85
+    },
+    {
+      "category_code": "apparel.sock",
+      "events": 1176,
+      "users": 541,
+      "purchase_events": 5,
+      "value": 120.89
+    },
+    {
+      "category_code": "apparel.shoes.ballet_shoes",
+      "events": 1133,
+      "users": 610,
+      "purchase_events": 4,
+      "value": 95.76
+    },
+    {
+      "category_code": "apparel.scarf",
+      "events": 1123,
+      "users": 587,
+      "purchase_events": 4,
+      "value": 89.05
+    },
+    {
+      "category_code": "apparel.belt",
+      "events": 1024,
+      "users": 460,
+      "purchase_events": 6,
+      "value": 533.84
+    },
+    {
+      "category_code": "apparel.shoes.espadrilles",
+      "events": 731,
+      "users": 629,
+      "purchase_events": 0,
+      "value": 0.0
+    },
+    {
+      "category_code": "apparel.shoes.step_ins",
+      "events": 609,
+      "users": 441,
+      "purchase_events": 0,
+      "value": 0.0
+    },
+    {
+      "category_code": "apparel.skirt",
+      "events": 492,
+      "users": 384,
+      "purchase_events": 1,
+      "value": 18.02
+    },
+    {
+      "category_code": "apparel.shorts",
+      "events": 319,
+      "users": 216,
+      "purchase_events": 2,
+      "value": 32.18
+    },
+    {
+      "category_code": "apparel.jacket",
+      "events": 92,
+      "users": 80,
+      "purchase_events": 0,
+      "value": 0.0
+    }
+  ],
+  "category_funnel": [
+    {
+      "category_code": "apparel.shoes",
+      "views": 201807,
+      "carts": 0,
+      "purchases": 1141
+    },
+    {
+      "category_code": "apparel.shoes.keds",
+      "views": 138342,
+      "carts": 0,
+      "purchases": 970
+    },
+    {
+      "category_code": "apparel.costume",
+      "views": 28648,
+      "carts": 0,
+      "purchases": 98
+    },
+    {
+      "category_code": "apparel.jeans",
+      "views": 20140,
+      "carts": 0,
+      "purchases": 58
+    },
+    {
+      "category_code": "apparel.underwear",
+      "views": 18007,
+      "carts": 0,
+      "purchases": 32
+    },
+    {
+      "category_code": "apparel.tshirt",
+      "views": 10731,
+      "carts": 0,
+      "purchases": 24
+    },
+    {
+      "category_code": "apparel.dress",
+      "views": 10302,
+      "carts": 0,
+      "purchases": 2
+    },
+    {
+      "category_code": "apparel.trousers",
+      "views": 8133,
+      "carts": 0,
+      "purchases": 14
+    },
+    {
+      "category_code": "apparel.shoes.moccasins",
+      "views": 5462,
+      "carts": 0,
+      "purchases": 34
+    },
+    {
+      "category_code": "apparel.shirt",
+      "views": 5091,
+      "carts": 0,
+      "purchases": 20
+    },
+    {
+      "category_code": "apparel.shoes.sandals",
+      "views": 3387,
+      "carts": 0,
+      "purchases": 6
+    },
+    {
+      "category_code": "apparel.shoes.slipons",
+      "views": 2386,
+      "carts": 0,
+      "purchases": 5
+    },
+    {
+      "category_code": "apparel.shoes.ballet_shoes",
+      "views": 1001,
+      "carts": 0,
+      "purchases": 4
+    },
+    {
+      "category_code": "apparel.scarf",
+      "views": 974,
+      "carts": 0,
+      "purchases": 4
+    },
+    {
+      "category_code": "apparel.sock",
+      "views": 900,
+      "carts": 0,
+      "purchases": 5
+    },
+    {
+      "category_code": "apparel.belt",
+      "views": 832,
+      "carts": 0,
+      "purchases": 6
+    },
+    {
+      "category_code": "apparel.shoes.espadrilles",
+      "views": 690,
+      "carts": 0,
+      "purchases": 0
+    },
+    {
+      "category_code": "apparel.shoes.step_ins",
+      "views": 567,
+      "carts": 0,
+      "purchases": 0
+    },
+    {
+      "category_code": "apparel.skirt",
+      "views": 451,
+      "carts": 0,
+      "purchases": 1
+    },
+    {
+      "category_code": "apparel.shorts",
+      "views": 282,
+      "carts": 0,
+      "purchases": 2
+    },
+    {
+      "category_code": "apparel.jacket",
+      "views": 87,
+      "carts": 0,
+      "purchases": 0
+    }
+  ]
+}
