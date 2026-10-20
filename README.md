@@ -4,9 +4,9 @@
 
 **第一负责人：朱怡筠 · 项目周期：2024.11—2025.05**
 
-![一页项目总览](05-deliverables/project-overview.png)
+![一页项目总览](05-deliverables/project-overview.jpg)
 
-[下载可编辑PPTX](05-deliverables/project-overview.pptx) · [查看高清总览](05-deliverables/project-overview.png) · [阅读结论与建议](05-deliverables/conclusions.md) · [简历表述](05-deliverables/resume-summary.md)
+[下载可编辑PPTX](05-deliverables/project-overview.pptx) · [查看高清总览](05-deliverables/project-overview.jpg) · [阅读结论与建议](05-deliverables/conclusions.md) · [简历表述](05-deliverables/resume-summary.md)
 
 ## 先看这三个结果
 
